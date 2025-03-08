@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "title": "Spaghetti Bolognese",
+      "author": "Chef John",
+      "dateCreated": "2023-03-01",
+      "imageUrl": "https://example.com/spaghetti.jpg",
+      "ingredients": [
+        "200g spaghetti",
+        "100g minced beef",
+        "1 can tomato sauce",
+        "1 onion, chopped",
+        "Salt & Pepper"
+      ],
+      "instructions": [
+        "Boil the spaghetti.",
+        "Cook the minced beef with chopped onions.",
+        "Add tomato sauce and simmer.",
+        "Mix spaghetti with sauce."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "30 mins",
+      "servings": 4,
+      "remarks": "Serve hot.",
+      "tags": ["Italian", "Pasta"]
+    },
+    {
+      "id": "2",
+      "title": "Vegan Salad Bowl",
+      "author": "Jane Doe",
+      "dateCreated": "2023-04-10",
+      "imageUrl": "https://example.com/salad.jpg",
+      "ingredients": [
+        "Mixed greens",
+        "Cherry tomatoes",
+        "Cucumbers",
+        "Avocado",
+        "Olive oil & Lemon dressing"
+      ],
+      "instructions": [
+        "Chop all veggies.",
+        "Mix in a bowl.",
+        "Drizzle with dressing."
+      ],
+      "prepTime": "10 mins",
+      "servings": 2,
+      "remarks": "Fresh and healthy.",
+      "tags": ["Vegan", "Salad", "Healthy"]
+    }
+  ]
+  

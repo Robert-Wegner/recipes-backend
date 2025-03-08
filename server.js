@@ -6,7 +6,12 @@ const cors = require('cors');
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: 'https://recipes-frontend-1.onrender.com' }));
+app.use(cors({
+  origin: 'https://recipes-frontend-1.onrender.com',
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  // credentials: true, // only if you need cookies
+}));
 
 const SECRET_TOKEN = "secretToken";
 
